@@ -84,11 +84,14 @@ DATABASES = {
         'PASSWORD': config('POSTGRES_PASSWORD'),
         'HOST': 'db_sql',
         'PORT': config('POSTGRES_PORT', default= '5432')
+    },
+    'mongodb': {
+        'ENGINE': 'djongo',
+        'NAME': config('MONGO_NAME'),
+        'HOST': 'db_nosql',
+        'PORT': config('MONGO_PORT', default= '27017') ,
     }
 }
-
-MONGO_URL = config('MONGO_URL')
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
