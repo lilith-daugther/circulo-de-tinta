@@ -51,3 +51,7 @@ nosetests.xml
 
 # Archivos de logs
 *.log
+
+# Ignorar datos de bases de datos
+db/postgres/
+db/mongo/
