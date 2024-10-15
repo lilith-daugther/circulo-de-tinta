@@ -1,0 +1,53 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Archivos de configuración
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.bak
+
+# Archivos de dependencias
+*.egg-info/
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+docker-compose.prod.yml
+Dockerfile.prod
+
+# Configuración del editor
+.idea/
+.vscode/
+
+# Archivos de entorno
+.env
+*.env
+
+# Archivos de salida de pruebas
+coverage/
+nosetests.xml
+*.cover
+*.py,cover
+
+# Archivos de caché
+.cache/
+*.egg
+*.egg-info/
+
+# Archivos de logs
+*.log
